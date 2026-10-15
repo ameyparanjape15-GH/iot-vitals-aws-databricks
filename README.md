@@ -4,7 +4,7 @@ A hands-on learning project. A simulated blood-pressure and SpO2 device publishe
 
 > **Disclaimer:** synthetic data only. This is a learning exercise, not a medical device or clinical alerting system.
 
-
+![Architecture](docs/architecture_hld.png)
 
 ## How it works
 
@@ -80,5 +80,3 @@ A short run of a few minutes is only a few dozen messages. Run short tests, then
 - Synthetic data, one device, Databricks Free Edition (serverless only).
 - Each abnormal reading sends its own email. Production would add a cooldown (Lambda + DynamoDB) to avoid alert fatigue.
 - Next: Auto Loader for incremental loads, Parquet from Firehose, infrastructure as code (CloudFormation or Terraform), CloudWatch alarms and a rule error action, and a dashboard on the Gold tables.
-# iot-vitals-aws-databricks
-Simulated IoT vitals pipeline: AWS IoT Core alerts and Databricks Bronze/Silver/Gold tables
