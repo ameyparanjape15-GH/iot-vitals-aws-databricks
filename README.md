@@ -4,7 +4,7 @@ A hands-on learning project. A simulated blood-pressure and SpO2 device publishe
 
 > **Disclaimer:** synthetic data only. This is a learning exercise, not a medical device or clinical alerting system.
 
-![Architecture](docs/architecture_hld.png)
+![Architecture](/github_repo/docsarchitecture_hld.png)
 
 ## How it works
 
