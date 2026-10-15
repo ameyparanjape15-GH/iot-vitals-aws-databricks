@@ -1,0 +1,25 @@
+   # Secrets: never commit these
+   certs/
+   cert/
+   *.pem
+   *.key
+   *.crt
+   *.csv
+   *accessKeys*
+   .aws/
+   .env
+
+   # Python
+   __pycache__/
+   *.pyc
+   .venv/
+   venv/
+
+   # OS / editors
+   .DS_Store
+   Thumbs.db
+   .vscode/
+   .idea/
+
+   # Office temp files
+   ~$*
